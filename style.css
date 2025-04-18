@@ -1,0 +1,124 @@
+/* Resetando estilos padrão para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configuração da fonte e espaçamento */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.contract {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  padding-left: 20px;
+  color: #34495e;
+  list-style-type: none;
+}
+
+h4 {
+  font-size: 1rem;
+  margin-left: 40px;
+  color: #7f8c8d;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+.signature-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os inputs e os nomes */
+}
+
+.signature-section input {
+  width: 60%; /* Largura do input ajustada */
+  border: none;
+  border-bottom: 2px solid #333; /* Linha de assinatura */
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 5px; /* Espaçamento entre o campo de assinatura e o nome */
+  background-color: transparent;
+}
+
+.signature-section input:focus {
+  outline: none;
+  border-bottom: 2px solid #3498db; /* Cor de foco */
+}
+
+.signature-section button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signature-section button:hover {
+  background-color: #2980b9;
+}
+
+.signature-line {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+.signature-line:first-child {
+  margin-top: 0;
+}
+
+.signature-line span {
+  display: block;
+  margin-top: 5px;
+  color: #333;
+}
+
+/* Adicionando estilo para a parte final */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+  margin-top: 30px;
+}
